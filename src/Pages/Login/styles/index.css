@@ -9,7 +9,9 @@
     box-sizing: border-box;
     overflow-y: hidden;
 }
-
+.logo-bakimi{
+    padding: 3.5rem;
+}
 .container img{
     width: 100%;
     object-fit: contain;
@@ -19,6 +21,48 @@
     height: 60% ;
     width: 40%;
 }
+
+#container-login-buttonGoogle {
+    height: 5em;
+    background-color:transparent;
+    padding: 0 1rem;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;  
+    border-radius: 5px;
+  }
+  #container-login-buttonGoogle:hover {
+      background-color: rgb(241, 241, 241);
+  }
+#container-login-buttonGoogle img {
+    width: 2em;
+    height: 2em;
+    border: 2px solid white;
+    background-color: white;
+  }
+
+#container-login-buttonGoogle button{
+    background-color: transparent ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    border: 1px solid #000;
+    border: none;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/*.figuraLogo{
+    width: 15em;
+    height: 2.5em;
+
+}*/
 
 .sub-container{
     padding: 2rem;

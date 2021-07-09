@@ -1,0 +1,51 @@
+.header{
+    background-color:#8DC3A7 ;
+    height: 90px;
+}
+.Logo-navbar{
+    height:4em;
+    width: 12em;
+    padding-left: 2em;
+    position:relative;
+    left: 60px;
+}
+
+.titulobakimi{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    left: 10px;
+}
+
+.logo-bakimi-navbar{
+    height: 2em;
+    width: 2em;
+}
+
+.button-body{
+    width: 4em;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    justify-content: left;
+}
+
+.button-routines{
+    width: 4em;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    justify-content: left;
+
+}
+
+.button-logout{
+    width: 4em;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    justify-content: left;
+
+}
+

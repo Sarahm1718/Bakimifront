@@ -27,11 +27,13 @@ function Login({signInWithGoogle}){
             Sign up with Google
           </button>
         </div>
+    
         </div>
             </div>
             
                 <div className="sub-container" >
-            <img className="muñeca_inicio"src={Hoja} />
+                  
+        <img className="muñeca_inicio"src={Hoja} />
                 
             </div>
         </div>
