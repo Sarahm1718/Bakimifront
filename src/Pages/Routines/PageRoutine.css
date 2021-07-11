@@ -1,0 +1,75 @@
+.tittle-routines{
+    font-size: 65px;
+    padding-left: 594px;
+    padding-top: 55px;
+    justify-content: center;
+
+}
+
+.aviso-routines{
+    padding-left:25px;
+    padding-top: 109px;
+    font-size: 33px;
+    padding-bottom: 69px;
+    text-align: center;
+}
+
+.images-routines{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-dia{   
+    width: 328px;
+    height: 242px;
+    padding-left: 71px;
+    object-fit: cover;
+}
+
+.images-noche{
+    width: 328px;
+    height: 242px;
+    padding-left: 8px;
+    padding-right: 75px;
+    object-fit: cover ;
+}
+
+.logos-routines{
+
+    display: flex;
+    justify-content: space-between;
+    
+    grid-column-gap: 40px;
+}
+
+.logo-dia{
+    width: 328px;
+    height: 140px;
+    padding-left: 75px;
+    object-fit: contain;
+}
+
+.logo-noche{  
+    width: 328px;
+    height: 125px;
+    padding-left: 8px;
+    padding-right: 75px;
+    object-fit: contain;
+}
+
+.button-mis-rutinas{
+    font-size: 30px;
+    background-color: #8DC3A7;
+    border-radius: 8px;
+}
+
+.buttons-routines{
+    display: flex;
+    justify-content:space-between;
+    margin: 90px 100px;
+    height: 50px;
+    background-color: #8DC3A7;
+    border-radius: 70px;
+    border-color:black;
+    column-gap: 30px;
+}

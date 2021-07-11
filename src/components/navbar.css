@@ -114,9 +114,14 @@
     font-size: 45px;
     justify-content:left;
     text-decoration: none;
+    padding-top: 20px;
 }
 
-.tittle-navbar a{
-    
+header a{
+    color: #2D2D2D;
+    font-family:monospace;
     text-decoration: none;
+    text-align: center;
+    display: flex;
+    top: 25px;
 }

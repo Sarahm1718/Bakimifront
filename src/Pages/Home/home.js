@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import "./index.css"
 import { Link } from "react-router-dom";
 import Oyli from "../../Images/petroleo.png";
+import Youtube from "../../Images/youtube.png"
 
 
 function Home (){
@@ -14,7 +15,8 @@ function Home (){
                 <div className="primary-buttons">
                     <h2 className="tituloskin">¿Que tipo de piel tienes?</h2>
                     <div className="primary-buttonse">
-                        <button className="button-video" OnClick="https://www.youtube.com/watch?v=RxOFpSpzunM">Video Tutorial</button>
+                        <button><img className="img-youtube" src={Youtube}></img><a className="button-video" target="_blank" href="https://www.youtube.com/watch?v=RxOFpSpzunM">Video Tutorial</a></button>
+                        
                     </div>
                 </div>
                 

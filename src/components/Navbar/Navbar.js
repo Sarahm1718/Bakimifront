@@ -14,9 +14,12 @@ import User from "../../Images/user.png";
 import Cuerpo from "../../Images/usuario.png";
 import signOut from "../../Pages/Login/SignOut";
 
+import Foto from "../../Images/user.png";
 
 
 const Navbar = () => {
+    
+    const user = auth.currentUser;
    return(
        <>
            <header className="header">
@@ -30,11 +33,11 @@ const Navbar = () => {
                     <Link>
                     <img src={Cuerpo} alt="x"/> 
                     </Link>
-                   <Link>
+                   <Link to="/pageRoutine">
                    <img src={Crema} alt="x"/>   
                    </Link>
                       <Link to="/profile">
-                      <img src={User} alt="x"/>     
+                    <img src={user ? auth.currentUser.photoURL : Foto} className="profile-img" alt="Avatar" />
                       </Link>  
                       <img src={Logoutbut} alt="x" onClick={signOut}/>     
                      

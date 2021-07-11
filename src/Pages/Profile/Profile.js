@@ -14,8 +14,8 @@ export function Profile (){
                 <div>
                 <h2>Profile</h2>
                     <img src={user ? auth.currentUser.photoURL : Foto} className="profile-img" alt="Avatar" />
-                    <span>{user ? auth.currentUser.displayName : "No asignado"}</span>
-                    <span>{user ? auth.currentUser.email : "No asignado"}</span>
+                    <span>{user ? auth.currentUser.displayName : "No Hay Ingreso"}</span>
+                    <span>{user ? auth.currentUser.email : "No Hay Ingreso"}</span>
                 </div>
                 <Link to = "/home">
                 <button className="buttonProfile" >Volver</button>

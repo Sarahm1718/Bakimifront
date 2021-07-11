@@ -3,17 +3,14 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SignIn from './Pages/Login/SingIn';
 import Home from './Pages/Home/home';
-import OilySkinPage from './Pages/SkinPage/OilySkin/OilySkinPage';
-import MixedSkin from './Pages/SkinPage/MixedSkin/MixedSkin';
-import DrySkin from './Pages/SkinPage/DrySkin/DrySkin';
+import ProductsOily from './Pages/SkinPage/OilySkin/ProductsOily';
 import Chat from './Pages/Chat/Chat';
-import DayRoutine from './Pages/Routines/DayRoutine/DayRoutine';
-import NightRoutine from './Pages/Routines/NightRoutine/NightRoutine';
-import PageRoutine from './Pages/Routines/PageRoutine';
 import Profile from './Pages/Profile/Profile';
 import HomeOily from './Pages/Home/homeOyli';
 import HomeMixed from './Pages/Home/homeMixed';
 import HomeDry from './Pages/Home/homeDry';
+import PageRoutine from './Pages/Routines/PageRoutine';
+
 
 function App() {
   return (
@@ -21,17 +18,13 @@ function App() {
       <Switch>
         <Route path="/" exact component={SignIn}/>
         <Route path="/home" component={Home}/>
-        <Route path="/oilySkinPage" component={OilySkinPage}/>
-        <Route path="/dayRoutine" component={DayRoutine}/>
-        <Route path="/nightRoutine" component={NightRoutine}/>
-        <Route path="/pageRoutine" component={PageRoutine}/>
-        <Route path="/mixedSkin" component={MixedSkin}/>
-        <Route path="/drySkin" component={DrySkin}/>
+        <Route path="/productsOily" component={ProductsOily}/>
         <Route path="/chat" component={Chat}/>
         <Route path="/profile" component={Profile}/>
         <Route path="/homeMixed" component={HomeMixed}/>
         <Route path="/homeOily" component={HomeOily}/>
         <Route path="/homeDry" component={HomeDry}/>
+        <Route path="/pageRoutine" component={PageRoutine}/>
 
 
       </Switch>

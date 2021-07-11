@@ -71,8 +71,8 @@
 }
 
 .image-oily{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
 }
 
 .tituloskin{
@@ -98,8 +98,23 @@
     font-size: 20px; 
     background-color: transparent;
     border-radius: 8px;
+    text-decoration: none;
+    color: black;
 }
 
 .pasos-home{
-    padding: 200px;
+    padding: 3px;
+    padding-left: 150px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.img-youtube{
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    padding-top: 5.5px;
+    padding-right: 1.5px;
+    padding-bottom: -11.5px;
+    padding-left: 1.5px;
 }
