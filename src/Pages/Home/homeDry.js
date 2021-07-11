@@ -23,7 +23,7 @@ function HomeDry (){
                         <div className="card">Mascarillas naturales</div>
                     </Link>
                     <Link to="/">
-                        <div className="card">Labios</div>
+                        <div className="card">Limpieza facial profunda</div>
                     </Link>
                     <Link to="/">
                         <div className="card">Productos Recomendados</div>
