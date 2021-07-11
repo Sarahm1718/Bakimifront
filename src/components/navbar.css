@@ -1,7 +1,27 @@
 .header{
     background-color:#8DC3A7 ;
     height: 90px;
+    display: flex;
+    justify-content: space-between;
 }
+.header--logo{
+    height: 100%;
+    padding: 10px 0;
+}
+.header--nav{
+    display: flex;
+    margin: auto 0;
+    margin-right: 40px;
+    height: 50px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.header--nav>img{
+    width: 30px;
+    height: 30px;
+}
+
 .Logo-navbar{
     height:4em;
     width: 12em;
@@ -10,11 +30,12 @@
     left: 60px;
 }
 
+
 .titulobakimi{
     display: flex;
     align-items: center;
     position: relative;
-    
+
     left: 10px;
 }
 
@@ -46,6 +67,21 @@
     border: none;
     font-size: medium;
     justify-content: left;
+
+}
+
+.button-logonavbar{
+    background-color: transparent;
+    height: 5.5em;
+}
+
+.button-chat{
+    background-color: transparent;
+    border: none;
+}
+
+.logout{
+    width: 4em;
 
 }
 

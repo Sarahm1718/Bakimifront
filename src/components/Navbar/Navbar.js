@@ -7,24 +7,33 @@ import Logo1 from "../../Images/Logo_solofigura.png";
 import {AppBar, Toolbar, Typography} from '@material-ui/core';
 import "../../components/navbar.css";
 import  bodyNavbar from "../../Images/usuario.png";
+import signOut from "../../Pages/Login/SignOut";
+import Logoutbut from "../../Images/logout.png";
+
 
 
 
 const Navbar = () => {
    return(
-       <div>
+       <>
            <header className="header">
-               <footer>
-               
-                   <h3 className="titulobakimi">Bakimi</h3>
-                   <img className="Logo-navbar"   
-              class="rounded mx-auto d-block Logo-navbar"
-               src={Logo1} alt="x"/>
-                   
-               </footer>
-               
+                <Link to="/">
+                    <img className="header--logo" src={Logo1}></img>
+                </Link> 
+                <div className="header--nav">
+                    <Link to={signOut}>
+                    <img src={Logoutbut} alt="x"/> 
+                    </Link>
+                
+                    <img src={Logoutbut} alt="x"/>                
+                    <img src={Logoutbut} alt="x"/>                
+                    <img src={Logoutbut} alt="x"/>                
+                    <img src={Logoutbut} alt="x"/>                
+
+
+                </div>
            </header>
-       </div>
+       </>
    )
 }
 
