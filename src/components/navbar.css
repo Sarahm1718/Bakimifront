@@ -4,22 +4,48 @@
     display: flex;
     justify-content: space-between;
 }
+.flex{
+    display: flex;
+    height: 100%;
+}
 .header--logo{
     height: 100%;
     padding: 10px 0;
 }
+
+.logo--rutina--navbar{
+    width: 30px;
+    height: 30px;
+}
+
+.logo--user--navbar{
+    width: 30px;
+    height: 30px;
+}
+
+.logo--cuerpo--navbar{
+    width: 30px;
+    height: 30px;
+}
+
+.logo--logout--navbar{
+    width: 30px;
+    height: 30px;
+}
+
+
 .header--nav{
     display: flex;
     margin: auto 0;
     margin-right: 40px;
     height: 50px;
-    column-gap: 10px;
+    column-gap: 40px;
     align-items: center;
 }
 
-.header--nav>img{
-    width: 30px;
-    height: 30px;
+.header--nav img{
+    width: 40px;
+    height: 40px;
 }
 
 .Logo-navbar{
@@ -83,5 +109,10 @@
 .logout{
     width: 4em;
 
+}
+.tittle-navbar{
+    font-size: 45px;
+    justify-content:left;
+    text-decoration: none;
 }
 

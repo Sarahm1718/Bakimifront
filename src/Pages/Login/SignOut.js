@@ -1,14 +1,14 @@
-import Reacr from "react";
+import React from "react";
 import firebase from "../../functions/firebaseInit";
-import "firebase-auth";
-export const auth = firebase.auth();
+import { auth } from '../../functions/firebaseAuth';
+
 export const signInWithGoogle =() => {
     auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
 }
 
-export const signOut = () =>{
+export const signOut=()=> {
     auth.signOut();
-    window.location.reload();
+    window.location.href = '/';
 }
 
 export default signOut

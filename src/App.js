@@ -10,7 +10,7 @@ import Chat from './Pages/Chat/Chat';
 import DayRoutine from './Pages/Routines/DayRoutine/DayRoutine';
 import NightRoutine from './Pages/Routines/NightRoutine/NightRoutine';
 import PageRoutine from './Pages/Routines/PageRoutine';
-
+import Profile from './Pages/Profile/Profile';
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path="/mixedSkin" component={MixedSkin}/>
         <Route path="/drySkin" component={DrySkin}/>
         <Route path="/chat" component={Chat}/>
+        <Route path="/profile" component={Profile}/>
       </Switch>
     </Router>
   );

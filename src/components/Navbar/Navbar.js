@@ -7,9 +7,12 @@ import Logo1 from "../../Images/Logo_solofigura.png";
 import {AppBar, Toolbar, Typography} from '@material-ui/core';
 import "../../components/navbar.css";
 import  bodyNavbar from "../../Images/usuario.png";
-import signOut from "../../Pages/Login/SignOut";
 import Logoutbut from "../../Images/logout.png";
 
+import Crema from "../../Images/crema.png";
+import User from "../../Images/user.png";
+import Cuerpo from "../../Images/usuario.png";
+import signOut from "../../Pages/Login/SignOut";
 
 
 
@@ -18,17 +21,26 @@ const Navbar = () => {
        <>
            <header className="header">
                 <Link to="/">
-                    <img className="header--logo" src={Logo1}></img>
+                    <div className="flex">
+                        <img className="header--logo" src={Logo1}></img>
+                        <p className="tittle-navbar">Bakimi</p>
+                    </div>
                 </Link> 
                 <div className="header--nav">
-                    <Link to={signOut}>
-                    <img src={Logoutbut} alt="x"/> 
+                    <Link>
+                    <img src={Cuerpo} alt="x"/> 
                     </Link>
-                
-                    <img src={Logoutbut} alt="x"/>                
-                    <img src={Logoutbut} alt="x"/>                
-                    <img src={Logoutbut} alt="x"/>                
-                    <img src={Logoutbut} alt="x"/>                
+                   <Link>
+                   <img src={Crema} alt="x"/>   
+                   </Link>
+                      <Link to="/profile">
+                      <img src={User} alt="x"/>     
+                      </Link>  
+                      <img src={Logoutbut} alt="x" onClick={signOut}/>     
+                     
+
+                               
+                                    
 
 
                 </div>
