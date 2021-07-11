@@ -5,7 +5,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import "../Profile/Profile.css";
 
-
 export function Profile (){
     const user = auth.currentUser;
     return(
@@ -21,10 +20,8 @@ export function Profile (){
                 <Link to = "/home">
                 <button className="buttonProfile" >Volver</button>
                 </Link>
-                
             </div>
         </div>
     );
 }
-
 export default Profile
