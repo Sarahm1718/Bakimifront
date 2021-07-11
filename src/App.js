@@ -11,8 +11,9 @@ import DayRoutine from './Pages/Routines/DayRoutine/DayRoutine';
 import NightRoutine from './Pages/Routines/NightRoutine/NightRoutine';
 import PageRoutine from './Pages/Routines/PageRoutine';
 import Profile from './Pages/Profile/Profile';
-import HomeOily from './Pages/Home/homeOyli'
-import HomeMixed from './Pages/Home/homeMixed'
+import HomeOily from './Pages/Home/homeOyli';
+import HomeMixed from './Pages/Home/homeMixed';
+import HomeDry from './Pages/Home/homeDry';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/profile" component={Profile}/>
         <Route path="/homeMixed" component={HomeMixed}/>
         <Route path="/homeOily" component={HomeOily}/>
+        <Route path="/homeDry" component={HomeDry}/>
 
 
       </Switch>
