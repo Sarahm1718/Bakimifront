@@ -12,32 +12,43 @@ function Home (){
             
             <div className="content">
                 <div className="primary-buttons">
-                    <h2 className="tituloskin">Piel grasa<img className="image-oily" src={Oyli}></img></h2>
+                    <h2 className="tituloskin">¿Que tipo de piel tienes?</h2>
                     <div className="primary-buttonse">
-                        <button className="button-inspiracion">Inspiración</button>
-                        <button className="button-chat-publico">Chat Publico</button>
+                        <button className="button-video" OnClick="https://www.youtube.com/watch?v=RxOFpSpzunM">Video Tutorial</button>
                     </div>
                 </div>
                 
+                <div className="pasos-home">
+                <p className="pregunta-home">Si no sabes que tipo de piel tienes haz lo siguiente:</p>
+                <br></br>
+                <li className="paso-one">
+                       Lavar el rostro con jabon y secar bien
+                   </li>
+                   <li className="paso-two">
+                       No aplicar ningun producto en 1 hora
+                   </li>
+                   <li className="paso-three">
+                       Al pasar este lapso de tiempo, observa si tu rostro se ve y se siente grasoso(Piel grasa)  
+                   </li>
+                   <li>
+                   Si se siente seca, aspera(Piel seca)
+                   </li>
+                   <li>
+                   Si se siente grasa en la zona T(zona de la nariz) y el resto del rostro un poco seca(Piel mixta) 
+                   </li>
+                </div>
+                
                 <nav className="cards">
-                    <Link to="/">
-                        <div className="card">Mascarillas naturales</div>
+                    <Link to="/homeOily">
+                        <div className="card">Piel Grasa</div>
                     </Link>
-                    <Link to="/">
-                        <div className="card">Labios</div>
+                    <Link to="/homeMixed">
+                        <div className="card">Piel Mixta</div>
                     </Link>
-                    <Link to="/">
-                        <div className="card">Productos Recomendados</div>
+                    <Link to="/homeDry">
+                        <div className="card">Piel Seca</div>
                     </Link>
-                    <Link to="/">
-                        <div className="card">Acne</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Mascarillas Velo</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Bloqueador solar y otros productos</div>
-                    </Link>
+                   
                 </nav>
             </div>
 

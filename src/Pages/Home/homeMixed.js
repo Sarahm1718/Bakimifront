@@ -12,7 +12,7 @@ function HomeMixed (){
             
             <div className="content">
                 <div className="primary-buttons">
-                    <h2 className="tituloskin">Piel Seca<img className="image-oily" src={Mixta}></img></h2>
+                    <h2 className="tituloskin">Piel Mixta<img className="image-oily" src={Mixta}></img></h2>
                     <div className="primary-buttonse">
                         <button className="button-inspiracion">Inspiración</button>
                         <button className="button-chat-publico">Chat Publico</button>
