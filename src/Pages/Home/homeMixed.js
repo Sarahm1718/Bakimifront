@@ -2,17 +2,17 @@ import React from "react";
 import Navbar from '../../components/Navbar/Navbar';
 import "./index.css"
 import { Link } from "react-router-dom";
-import Oyli from "../../Images/petroleo.png";
+import Mixta from "../../Images/tecnica-mixta.png";
 
 
-function Home (){
+function HomeMixed (){
     return(
         <>
             <Navbar/>
             
             <div className="content">
                 <div className="primary-buttons">
-                    <h2 className="tituloskin">Piel grasa<img className="image-oily" src={Oyli}></img></h2>
+                    <h2 className="tituloskin">Piel Seca<img className="image-oily" src={Mixta}></img></h2>
                     <div className="primary-buttonse">
                         <button className="button-inspiracion">Inspiración</button>
                         <button className="button-chat-publico">Chat Publico</button>
@@ -45,4 +45,4 @@ function Home (){
     )
 }
 
-export default Home
+export default HomeMixed

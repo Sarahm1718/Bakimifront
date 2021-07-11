@@ -11,6 +11,8 @@ import DayRoutine from './Pages/Routines/DayRoutine/DayRoutine';
 import NightRoutine from './Pages/Routines/NightRoutine/NightRoutine';
 import PageRoutine from './Pages/Routines/PageRoutine';
 import Profile from './Pages/Profile/Profile';
+import HomeOily from './Pages/Home/homeOyli'
+import HomeMixed from './Pages/Home/homeMixed'
 
 function App() {
   return (
@@ -26,6 +28,10 @@ function App() {
         <Route path="/drySkin" component={DrySkin}/>
         <Route path="/chat" component={Chat}/>
         <Route path="/profile" component={Profile}/>
+        <Route path="/homeMixed" component={HomeMixed}/>
+        <Route path="/homeOily" component={HomeOily}/>
+
+
       </Switch>
     </Router>
   );
