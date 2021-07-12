@@ -15,7 +15,6 @@ function HomeOily (){
                 <div className="primary-buttons">
                     <h2 className="tituloskin">Piel grasa<img className="image-oily" src={Oyli}></img></h2>
                     <div className="primary-buttonse">
-                        <button className="button-inspiracion">Inspiración</button>
                         <Link to="/chat">
                         <button className="button-chat-publico">Chat Publico</button>
                         </Link>
@@ -28,15 +27,6 @@ function HomeOily (){
                     </Link>
                     <Link to="/">
                         <div className="card">Limpieza facial profunda</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Productos Recomendados</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Acne</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Mascarillas Velo</div>
                     </Link>
                     <Link to="/">
                         <div className="card">Bloqueador solar y otros productos</div>

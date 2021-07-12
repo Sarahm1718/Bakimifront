@@ -13,7 +13,6 @@ function HomeDry (){
                 <div className="primary-buttons">
                     <h2 className="tituloskin">Piel Seca<img className="image-oily" src={Rostro}></img></h2>
                     <div className="primary-buttonse">
-                        <button className="button-inspiracion">Inspiración</button>
                         <button className="button-chat-publico">Chat Publico</button>
                     </div>
                 </div>
@@ -24,15 +23,6 @@ function HomeDry (){
                     </Link>
                     <Link to="/">
                         <div className="card">Limpieza facial profunda</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Productos Recomendados</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Acne</div>
-                    </Link>
-                    <Link to="/">
-                        <div className="card">Mascarillas Velo</div>
                     </Link>
                     <Link to="/">
                         <div className="card">Bloqueador solar y otros productos</div>

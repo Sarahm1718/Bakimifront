@@ -30,9 +30,7 @@ const Navbar = () => {
                     </div>
                 </Link> 
                 <div className="header--nav">
-                    <Link>
-                    <img src={Cuerpo} alt="x"/> 
-                    </Link>
+
                    <Link to="/pageRoutine">
                    <img src={Crema} alt="x"/>   
                    </Link>

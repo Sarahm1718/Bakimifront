@@ -15,7 +15,7 @@ function Home (){
                 <div className="primary-buttons">
                     <h2 className="tituloskin">¿Que tipo de piel tienes?</h2>
                     <div className="primary-buttonse">
-                        <button><img className="img-youtube" src={Youtube}></img><a className="button-video" target="_blank" href="https://www.youtube.com/watch?v=RxOFpSpzunM">Video Tutorial</a></button>
+                        <button className="button-video"><img className="img-youtube" src={Youtube}></img><a className="button-video" target="_blank" href="https://www.youtube.com/watch?v=RxOFpSpzunM">Video Tutorial</a></button>
                         
                     </div>
                 </div>

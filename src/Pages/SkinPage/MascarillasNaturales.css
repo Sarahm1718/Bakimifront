@@ -19,9 +19,43 @@
 
 .reseña{
     padding-left: 50px;
+    padding-top: 21px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.aviso{
+    padding-left: 200px;
+    padding-top: 63px;
+    text-align: center;
+    padding-right: 200px;
+    padding-bottom: 63px;
+    font-size: 23px;
 }
 
 .proceso-img{
     display: flex;
     justify-content: space-between;
+}
+
+.button-video-masca{
+    font-size: 20px; 
+    background-color: transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.primary-buttons-masca{
+    display: flex;
+    justify-content:space-between;
+    margin: 90px 100px;
+    height: 50px;
+    padding-right: 70px;
+    background-color: #8DC3A7;
+    border-radius: 70px;
+    border-color:black;
+    column-gap: 30px;
+    width: 80px;
 }
