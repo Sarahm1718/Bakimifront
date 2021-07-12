@@ -23,7 +23,7 @@ function HomeOily (){
                 </div>
                 
                 <nav className="cards">
-                    <Link to="/chat">
+                    <Link to="/mascarillasNaturales">
                         <div className="card">Mascarillas naturales</div>
                     </Link>
                     <Link to="/">

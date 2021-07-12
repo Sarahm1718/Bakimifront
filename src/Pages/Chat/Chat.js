@@ -6,10 +6,12 @@ import firebase, {db} from "../../functions/firebaseInit";
 import { auth } from '../../functions/firebaseAuth';
 import { useCollectionData } from "react-firebase-hooks/firestore";
 import '@firebase/firestore'
+import Navbar from "../../components/Navbar/Navbar";
 
-
+import './index.css'
 
 function Chat() {
+
     const messageRef = db.collection("messages");
     const query = messageRef.orderBy("createdAt").limitToLast(200);
     const [messages] = useCollectionData(query, { idField: 'id' });
@@ -31,19 +33,22 @@ function Chat() {
     }
 
     return <main>
-        <div>
-            <form onSubmit={sendMessage}>
-                <input value={formValue} onChange={(e) => {
-                    setFormValue(e.target.value)
-                }}
-                    placeholder="Escribe aqui"
-                />
-                <button type="submit" disabled={!formValue} >Send
-                </button>
-            </form>
-        </div>
-        <div>
-            {messages && messages.map(msn => <ChatMessage key={msn.id} message={msn} />)}
+        <Navbar/>
+        <div className="chat">
+            <div className="messages">
+                {messages && messages.map(msn => <ChatMessage key={msn.id} message={msn} />)}
+            </div>
+            <div className="chatInput">
+                <form onSubmit={sendMessage}>
+                    <input value={formValue} onChange={(e) => {
+                        setFormValue(e.target.value)
+                    }}
+                        placeholder="Escribe aqui"
+                    />
+                    <button type="submit" disabled={!formValue} >Send
+                    </button>
+                </form>
+            </div>
         </div>
     </main>
 }
@@ -52,12 +57,12 @@ function ChatMessage({ message }) {
     const { text, uid, photoURL } = message;
     const messageOrderClass = uid === auth.currentUser.uid ? 'send' : 'received';
 
-    return (<div children={"message" + messageOrderClass}>
-        <img src={photoURL} alt={"avatar"} />
-
-        <p>{text}</p>
-
-    </div>)
+    return (
+        <div className={`message ${messageOrderClass}`} children={"message" + messageOrderClass}>
+            <img src={photoURL} alt={"avatar"} />
+            <p>{text}</p>
+        </div>
+    )
 }
 
 export default Chat

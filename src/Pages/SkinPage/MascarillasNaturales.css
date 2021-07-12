@@ -1,0 +1,27 @@
+.titulo-mascarillas{
+    font-size: 50px;
+    padding-left: 423px;
+}
+
+.flecha{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.mascarillas-img{
+    padding-left: 50px;
+    height: 300px;
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+.reseña{
+    padding-left: 50px;
+}
+
+.proceso-img{
+    display: flex;
+    justify-content: space-between;
+}

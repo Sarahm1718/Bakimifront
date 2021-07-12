@@ -10,6 +10,7 @@ import HomeOily from './Pages/Home/homeOyli';
 import HomeMixed from './Pages/Home/homeMixed';
 import HomeDry from './Pages/Home/homeDry';
 import PageRoutine from './Pages/Routines/PageRoutine';
+import MascarillasNaturales from './Pages/SkinPage/MascarillasNaturales'
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/homeOily" component={HomeOily}/>
         <Route path="/homeDry" component={HomeDry}/>
         <Route path="/pageRoutine" component={PageRoutine}/>
+        <Route path="/mascarillasNaturales" component={MascarillasNaturales}/>
+
 
 
       </Switch>
