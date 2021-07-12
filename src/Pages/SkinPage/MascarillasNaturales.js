@@ -12,7 +12,6 @@ function MascarillasNaturales (){
     return(
         <>
         <Navbar/>
-
         <div className="div-one">
             <img className="flecha" src={Flecha}></img>
             
@@ -37,7 +36,6 @@ function MascarillasNaturales (){
             <img className="mascarillas-img" src={Mascarilla4}></img>
             <p className="reseña">Debes mezclar una cucharada de miel y una cucharada de limón. Con un algodón, aplica la pasta en el rostro y deja reposar por 15 minutos. Pasado este tiempo, retira con agua tibia. El limón ayuda a reducir las manchas, es un astringente maravilloso y regula el ph, pero se debe aplicar en la noche y se debe retirar con mucho cuidado, ya que su exposición al sol genera manchas en la piel. Si tu piel es muy sensible es mejor que evites ingredientes tan fuertes como este.</p>
             </div>
-            
         </div>
         </>
     )
