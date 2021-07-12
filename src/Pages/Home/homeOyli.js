@@ -28,7 +28,7 @@ function HomeOily (){
                     <Link to="/">
                         <div className="card">Limpieza facial profunda</div>
                     </Link>
-                    <Link to="/">
+                    <Link to="/bloqueadorSolar">
                         <div className="card">Bloqueador solar y otros productos</div>
                     </Link>
                 </nav>

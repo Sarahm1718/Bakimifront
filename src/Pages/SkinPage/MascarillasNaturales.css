@@ -31,6 +31,7 @@
     padding-right: 200px;
     padding-bottom: 63px;
     font-size: 23px;
+    background-color: #8DC3A7;
 }
 
 .proceso-img{
@@ -58,4 +59,21 @@
     border-color:black;
     column-gap: 30px;
     width: 80px;
+}
+
+.mascarillas-img-1{
+    padding-left: 101px;
+    height: 300px;
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+.avisoend{
+    padding-left: 200px;
+    padding-top: 63px;
+    text-align: center;
+    padding-right: 200px;
+    padding-bottom: 63px;
+    font-size: 23px;
+    background-color:#8DC3A7 ;
 }
