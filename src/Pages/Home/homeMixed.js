@@ -19,14 +19,14 @@ function HomeMixed (){
                 </div>
                 
                 <nav className="cards">
-                    <Link to="/">
+                    <Link to="/mascarillasNaturales">
                         <div className="card">Mascarillas naturales</div>
                     </Link>
-                    <Link to="/">
+                    <Link to="/limpiezaProfunda">
                         <div className="card">Limpieza facial profunda</div>
                     </Link>
-                    <Link to="/">
-                        <div className="card">Bloqueador solar y otros productos</div>
+                    <Link to="/bloqueadorSolar">
+                        <div className="card">Bloqueador solar</div>
                     </Link>
                 </nav>
             </div>

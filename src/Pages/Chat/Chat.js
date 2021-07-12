@@ -45,7 +45,7 @@ function Chat() {
                     }}
                         placeholder="Escribe aqui"
                     />
-                    <button type="submit" disabled={!formValue} >Send
+                    <button  classname="button-send"type="submit" disabled={!formValue} >Send
                     </button>
                 </form>
             </div>

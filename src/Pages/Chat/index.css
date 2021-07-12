@@ -28,6 +28,8 @@
 }
 .messages{
     overflow-y: auto;
+    background-color: #E3FFF1;
+    
 }
 .message img{
     border-radius: 50%;
@@ -36,8 +38,16 @@
 }
 .message p{
     text-align: justify;
+    background-color:white;
+    border-radius: 20px;
+
 }
 .send{
     justify-content: flex-start;
+    
     flex-direction: row-reverse;
+}
+
+.button-send{
+    
 }

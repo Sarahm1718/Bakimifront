@@ -11,6 +11,7 @@ import HomeDry from './Pages/Home/homeDry';
 import PageRoutine from './Pages/Routines/PageRoutine';
 import MascarillasNaturales from './Pages/SkinPage/MascarillasNaturales'
 import BloqueadorSolar from './Pages/SkinPage/BloqueadorSolar'
+import LimpiezaProfunda from './Pages/SkinPage/LimpiezaProfunda'
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         <Route path="/homeDry" component={HomeDry}/>
         <Route path="/pageRoutine" component={PageRoutine}/>
         <Route path="/mascarillasNaturales" component={MascarillasNaturales}/>
-        
+        <Route path="/limpiezaProfunda" component={LimpiezaProfunda}/>
         <Route path="/bloqueadorSolar" component={BloqueadorSolar}/>
 
 

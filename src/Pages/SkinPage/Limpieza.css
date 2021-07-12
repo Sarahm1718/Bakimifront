@@ -1,0 +1,154 @@
+.content{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.primary-buttons-limpieza{
+    display: flex;
+    justify-content:space-between;
+    margin: 90px 100px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 70px;
+    border-color:black;
+    column-gap: 30px;
+    padding-left: 170px;
+}
+
+.primary-buttonse{
+    display: flex;
+    justify-content:space-between;
+    margin: 90px 100px;
+    height: 50px;
+    padding-right: 70px;
+    background-color: transparent;
+    border-radius: 70px;
+    border-color:black;
+    column-gap: 30px;
+}
+.cards-limpieza{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 56px;
+    width: 64%;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    max-width: 1222px;
+    margin: 0 auto;
+    padding: 60px;
+}
+.card-limpieza{
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #ACDCC3;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+    height: 100%;
+}
+.cards a{
+    text-decoration: none;
+}
+@media screen and (max-width:1024px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:640px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+.image-oily{
+    height: 50px;
+    width: 50px;
+}
+
+.tituloskin{
+    padding-left: 47px;
+    padding-bottom: 60px;
+    padding-top: 60;
+    font-size:45px;
+}
+.button-inspiracion{
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 8px;
+    
+}
+
+.button-chat-publico{
+    font-size: 30px; 
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.button-video{
+    font-size: 20px; 
+    background-color: transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.pasos-home{
+    padding: 3px;
+    padding-left: 150px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.img-youtube{
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    padding-top: 5.5px;
+    padding-right: 1.5px;
+    padding-bottom: -11.5px;
+    padding-left: 1.5px;
+}
+
+.video-youtube-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-left: 300px;
+    justify-content: center;
+}
+
+.tituloskin-limpieza{
+    padding-left: 47px;
+    padding-bottom: 60px;
+    padding-top: 60;
+    font-size:45px;
+}
+
+.imag-crem{
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 90px;
+    width: 90px;
+}
+
+.texto-facial{
+    padding-top: 50px;
+    padding-left: 67px;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 291px;
+}
+
+.texto-facial-1{
+    padding-top: 50px;
+    padding-left: 298px;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 308px;
+}
