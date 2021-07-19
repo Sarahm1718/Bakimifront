@@ -12,6 +12,7 @@ import PageRoutine from './Pages/Routines/PageRoutine';
 import MascarillasNaturales from './Pages/SkinPage/MascarillasNaturales'
 import BloqueadorSolar from './Pages/SkinPage/BloqueadorSolar'
 import LimpiezaProfunda from './Pages/SkinPage/LimpiezaProfunda'
+import MyRoutine from './Pages/SkinPage/MyRoutine';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/mascarillasNaturales" component={MascarillasNaturales}/>
         <Route path="/limpiezaProfunda" component={LimpiezaProfunda}/>
         <Route path="/bloqueadorSolar" component={BloqueadorSolar}/>
+        <Route path="/myRoutine" component={MyRoutine}/>
 
 
 

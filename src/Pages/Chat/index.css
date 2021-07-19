@@ -38,7 +38,6 @@
 }
 .message p{
     text-align: justify;
-    background-color:white;
     border-radius: 20px;
 
 }
@@ -46,8 +45,4 @@
     justify-content: flex-start;
     
     flex-direction: row-reverse;
-}
-
-.button-send{
-    
 }

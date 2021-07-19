@@ -6,6 +6,7 @@ import LogoDia from "../../Images/sol.png"
 import LogoNoche from "../../Images/fase-lunar.png"
 import Noche from "../../Images/Rutina_facial.jpg"
 import { Link } from "@material-ui/core";
+import MyRoutine from "../SkinPage/MyRoutine";
 
 
 
@@ -33,9 +34,10 @@ function PageRoutine(){
             <Link>
             <img className="images-dia" src={Dia}></img>
             </Link>
-            <Link className="buttons-routines">
-            <button className="button-mis-rutinas">Mis rutinas</button>
-            </Link>
+            <a href="myRoutine">
+            <button className="buttons-routines" className="button-mis-rutinas" >Mis rutinas</button>
+            </a>
+            
             <Link>
             <img className="images-noche" src={Noche}></img>
             </Link>
